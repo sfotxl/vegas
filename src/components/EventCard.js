@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import { Col, Row, Container } from 'reactstrap';
-import { List } from 'reactstrap';
 import '../App.css';
 
 const EventCard = ({ event }) => {

@@ -1,15 +1,6 @@
-import {
-  Navbar,
-  Nav,
-  NavbarToggler,
-  Collapse,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownItem,
-  DropdownMenu,
-} from 'reactstrap';
+import { Navbar, Nav, NavbarToggler, Collapse } from 'reactstrap';
 import { useState } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
