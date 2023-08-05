@@ -44,6 +44,7 @@ const EVENTLIST = [
     link: 'https://vegasexperience.com/fremont-zipline-slotzilla/?gad=1&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buJXYvYGKWz5A_wVBYqgC5_-NTqHA9iXaFwWwGsYrzIV-gglSpy8Qy4aAjtcEALw_wcB',
     cost: '$49 / $69',
     google: 'https://goo.gl/maps/NQ6H79enfxa41V779',
+    address: '425 E Fremont St #160, Las Vegas, NV 89101',
   },
   {
     id: 4,
@@ -52,7 +53,6 @@ const EVENTLIST = [
     time: 'All Day',
     image: PoolImage,
     location: 'p00l',
-    link: 'https://vegasexperience.com/fremont-zipline-slotzilla/?gad=1&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buJXYvYGKWz5A_wVBYqgC5_-NTqHA9iXaFwWwGsYrzIV-gglSpy8Qy4aAjtcEALw_wcB',
     cost: 'Free',
   },
   {
@@ -79,7 +79,7 @@ const EVENTLIST = [
   },
 
   {
-    id: 5,
+    id: 7,
     name: 'The Pepper Club',
     date: '8.29.23',
     time: '1:00pm',
@@ -88,6 +88,7 @@ const EVENTLIST = [
     link: 'https://www.thepepperclub.com/',
     address: '921 S Main St, Las Vegas, NV 89101',
     google: 'https://goo.gl/maps/EUpiUCeMmeQm3QRm8',
+    cost: '$$',
   },
 ];
 

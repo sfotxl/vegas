@@ -11,9 +11,9 @@ const Landing = () => {
             <NavItem>
               <Link to='/Events'>Events</Link>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <Link to='/Hotels'>Hotels</Link>
-            </NavItem>
+            </NavItem> */}
           </nav>
         </Col>
       </Row>

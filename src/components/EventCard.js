@@ -6,7 +6,7 @@ import '../App.css';
 const EventCard = ({ event }) => {
   return (
     <Container>
-      <Row className='bg-light'>
+      <Row className='text-dark'>
         <Col xs={12}>
           <div className='title'>{event.name}</div>
         </Col>
@@ -25,7 +25,7 @@ const EventCard = ({ event }) => {
         <Col
           xs={8}
           className='bg-success d-flex
-          justify-content-center text-light'
+          align-items-center text-light'
         >
           <div>
             <div className='data'>Location: {event.location}</div>
@@ -50,12 +50,12 @@ const EventCard = ({ event }) => {
         </Col>
       </Row>
 
-      <Row className='bg-success'>
+      <Row className='bg-success bottom1'>
         <Col className='d-flex align-items-center'>
           <div>
             {event.address ? (
-              <div className='address'>
-                Address:{' '}
+              <div className='address text-info'>
+                Directions to:{' '}
                 <a href={event.google} class='link-light'>
                   {event.address}
                 </a>
@@ -64,13 +64,15 @@ const EventCard = ({ event }) => {
           </div>
         </Col>
       </Row>
-      <Row className='bg-success'>
-        <Col>
-          <a href={event.link} class='link-info'>
-            More info
-          </a>
-        </Col>
-      </Row>
+      {event.link ? (
+        <Row className='bg-success bottom2'>
+          <Col>
+            <a href={event.link} class='link-info address'>
+              More info
+            </a>
+          </Col>
+        </Row>
+      ) : null}
       <hr />
     </Container>
   );
