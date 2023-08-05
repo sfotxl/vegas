@@ -25,15 +25,14 @@ const EventCard = ({ event }) => {
         <Col
           xs={8}
           className='bg-success d-flex
-          align-items-center text-light'
+       text-light'
         >
-          <div>
-            <div className='data'>Location: {event.location}</div>
-            <div className='data'>Cost: {event.cost}</div>
+          <Row>
+            <Col className='data'>Location: {event.location}</Col>
             {event.reservation ? (
-              <div className='data'>Reservation: {event.reservation}</div>
+              <Col className='data'>Reservation: {event.reservation}</Col>
             ) : null}
-          </div>
+          </Row>
         </Col>
       </Row>
       <Row className='address bg-success'>
@@ -42,13 +41,21 @@ const EventCard = ({ event }) => {
             <Card.Img
               variant='top'
               src={event.image}
-              // width='100%'
               height='100%'
               text={event.name}
             />
           </Card>
         </Col>
       </Row>
+      {event.description ? (
+        <Row className='justify-content-center'>
+          <Col className='bg-success description align-items-center'>
+            <div className='text-light align-items-center'>
+              {event.description}
+            </div>
+          </Col>
+        </Row>
+      ) : null}
 
       <Row className='bg-success bottom1'>
         <Col className='d-flex align-items-center'>

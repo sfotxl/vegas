@@ -101,3 +101,7 @@ a:hover {
 .bottom2 {
   padding-bottom: 0.5rem;
 }
+
+.description {
+  font-size: 0.9rem;
+}
