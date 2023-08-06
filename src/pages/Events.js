@@ -107,7 +107,7 @@ const EVENTLIST = [
   },
   {
     id: 8,
-    name: 'The Big Apple Coaster',
+    name: 'Big Apple Coaster',
     date: '8.19.23',
     time: '23:30',
     location: 'New York, New York',
