@@ -1,14 +1,20 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import { Col, Row, Container } from 'reactstrap';
+import { Col, Row, Container, CardImg, CardImgOverlay } from 'reactstrap';
 import '../App.css';
+import DesertImage from '../assets/desert.jpeg';
 
 const EventCard = ({ event }) => {
   return (
     <Container>
       <Row className='text-dark'>
         <Col xs={12}>
-          <div className='title'>{event.name}</div>
+          <Card className='text-center'>
+            <CardImg width='100%' src={DesertImage} alt='desert' />
+            <CardImgOverlay className='eventHead text-light'>
+              {event.name}
+            </CardImgOverlay>
+          </Card>
         </Col>
       </Row>
       <hr />
@@ -39,15 +45,16 @@ const EventCard = ({ event }) => {
         </Col>
       </Row>
       <Row className='address bg-success'>
-        <Col xs={12} sm={8}>
-          <Card className='bg-info text-dark card'>
+        <Col xs={12}>
+          {/* <Card className='bg-info text-dark card'>
             <Card.Img
               variant='top'
               src={event.image}
               height='100%'
               text={event.name}
             />
-          </Card>
+          </Card> */}
+          <img src={event.image} alt={event.name} width='100%' />
         </Col>
       </Row>
       {event.description ? (

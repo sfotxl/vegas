@@ -4,8 +4,10 @@ import ScarpettaImage from '../assets/scarpetta.jpeg';
 import UbeFrenchImage from '../assets/ube-french.jpeg';
 import SlotzImage from '../assets/slotz.jpeg';
 import PoolImage from '../assets/pool.jpeg';
-import GamblingImage from '../assets/gambling.jpeg';
-import GalpaoImage from '../assets/galpao.jpeg';
+// import GamblingImage from '../assets/gambling.jpeg';
+import NYNYImage from '../assets/NYNY.gif';
+import CasinoGif from '../assets/casino.gif';
+import GalpaoImage from '../assets/brazilian.gif';
 import EventCard from '../components/EventCard';
 import Header from '../components/Header';
 
@@ -70,7 +72,7 @@ const EVENTLIST = [
     name: 'Gamble',
     date: '8.19.23',
     time: 'All Day',
-    image: GamblingImage,
+    image: CasinoGif,
     location: 'The casino',
     cost: 'Free',
     description: `This is a placeholder. Gamble or pool. Enjoy the sights.`,
@@ -103,9 +105,21 @@ const EVENTLIST = [
     description:
       'Men in wigs. We have the tickets for Kayla, Keola, Kyle, Jordan, Xander, Travis, and Kalani. Additional tickets can be purchased on the site below.',
   },
-
   {
     id: 8,
+    name: 'The Big Apple Coaster',
+    date: '8.19.23',
+    time: '23:30',
+    location: 'New York, New York',
+    image: NYNYImage,
+    cost: '$25',
+    google: 'https://goo.gl/maps/QyRvjXmVBwBS8SBg8',
+    address: '3555 S Las Vegas Blvd, Las Vegas, NV 89109',
+    link: 'https://newyorknewyork.mgmresorts.com/en/entertainment/the-big-apple-coaster-and-arcade.html',
+    description: 'Roller coaster.',
+  },
+  {
+    id: 9,
     name: 'The Pepper Club',
     date: '8.20.23',
     time: '11:00',
