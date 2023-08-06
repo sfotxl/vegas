@@ -1,8 +1,8 @@
-import Area15Image from '../assets/area15.jpeg';
-import DragRaceImage from '../assets/drag-race-live.jpeg';
-import ScarpettaImage from '../assets/scarpetta.jpeg';
+import Area15Image from '../assets/meow.gif';
+import DragRaceImage from '../assets/dragrace.gif';
+import ScarpettaImage from '../assets/scarp.gif';
 import UbeFrenchImage from '../assets/ube-french.jpeg';
-import SlotzImage from '../assets/slotz.jpeg';
+import SlotzImage from '../assets/zipline.gif';
 import PoolImage from '../assets/pool.gif';
 // import GamblingImage from '../assets/gambling.jpeg';
 import NYNYImage from '../assets/NYNY.gif';
