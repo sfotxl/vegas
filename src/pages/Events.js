@@ -3,7 +3,7 @@ import DragRaceImage from '../assets/drag-race-live.jpeg';
 import ScarpettaImage from '../assets/scarpetta.jpeg';
 import UbeFrenchImage from '../assets/ube-french.jpeg';
 import SlotzImage from '../assets/slotz.jpeg';
-import PoolImage from '../assets/pool.jpeg';
+import PoolImage from '../assets/pool.gif';
 // import GamblingImage from '../assets/gambling.jpeg';
 import NYNYImage from '../assets/NYNY.gif';
 import CasinoGif from '../assets/casino.gif';
