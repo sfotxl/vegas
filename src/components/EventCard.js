@@ -20,9 +20,9 @@ const EventCard = ({ event }) => {
   }
 
   return (
-    <Container id={event.id}>
-      <Row className='text-dark'>
-        <Col xs={12}>
+    <Container id={event.id} className='eventcard'>
+      <Row className={background}>
+        <Col className='banner' xs={12}>
           <Card className='text-center'>
             <CardImg width='100%' src={DesertImage} alt='desert' />
             <CardImgOverlay className='eventHead text-light'>
@@ -31,7 +31,6 @@ const EventCard = ({ event }) => {
           </Card>
         </Col>
       </Row>
-      <hr />
       <Row className={background}>
         <Col
           xs={4}
@@ -102,7 +101,7 @@ const EventCard = ({ event }) => {
           </Col>
         </Row>
       ) : null}
-      <hr />
+      {/* <hr className={background} /> */}
     </Container>
   );
 };

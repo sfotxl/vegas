@@ -43,11 +43,11 @@ const Header = () => {
         </Nav>
         {/* </Collapse> */}
       </Navbar>
-      <div>
+      <div className='spotify'>
         <iframe
           title='spotify'
           src='https://open.spotify.com/embed/playlist/2m64Pkzd4XlxnpIs5ygOlr?utm_source=generator&theme=0'
-          width='450'
+          width='380'
           height='100'
           frameBorder='0'
           allowfullscreen=''
@@ -55,7 +55,7 @@ const Header = () => {
           loading='lazy'
         ></iframe>
       </div>
-      <div height='100px'></div>
+      <div className='flex-center' height='100px'></div>
     </>
   );
 };
