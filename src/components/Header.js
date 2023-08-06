@@ -45,6 +45,7 @@ const Header = () => {
       </Navbar>
       <div>
         <iframe
+          title='spotify'
           src='https://open.spotify.com/embed/playlist/2m64Pkzd4XlxnpIs5ygOlr?utm_source=generator&theme=0'
           width='450'
           height='100'
