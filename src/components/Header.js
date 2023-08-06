@@ -10,7 +10,7 @@ const Header = () => {
       {/* <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse isOpen={menuOpen} navbar> */}
       <Nav navbar className='flex-grow-1 justify-content-evenly flex-row'>
-        <NavLink to='/Events'>LAS KALAGAS.COM</NavLink>
+        <NavLink to='/'>WE'RE GOING TO VEGAS Y'ALL</NavLink>
 
         {/* <NavLink to='/'>Hotels</NavLink> */}
 

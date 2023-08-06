@@ -21,7 +21,8 @@ const EVENTLIST = [
     link: 'http://area15.com/',
     cost: '~$50',
     google: 'https://goo.gl/maps/zCzANQxm8fv5Sw1y9',
-    description: 'Admission is free. I need to go here for my Art.',
+    description:
+      'This is a large complex featuring VR, thrill rides, music, and interactive art. Admission is free to the building, but doing things once inside might carry a price. ',
   },
   {
     id: 2,
@@ -36,20 +37,22 @@ const EVENTLIST = [
     address:
       'Boulevard Tower, 3708 Las Vegas Blvd S Level 3, Las Vegas, NV 89109',
     google: 'https://goo.gl/maps/grCV8vn8o9UAgWsH9',
-    description: 'Calling this my birthday dinner.',
+    description:
+      'This is my birthday dinner. If you cannot make it to this for whatever reason please let me know before August 16.',
   },
   {
     id: 3,
     name: 'Slotzilla Zipline',
     date: '8.18.23',
-    time: '13:00',
+    time: '22:00',
     image: SlotzImage,
     location: 'Downtown LV',
     link: 'https://vegasexperience.com/fremont-zipline-slotzilla/?gad=1&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buJXYvYGKWz5A_wVBYqgC5_-NTqHA9iXaFwWwGsYrzIV-gglSpy8Qy4aAjtcEALw_wcB',
     cost: '$49 / $69',
     google: 'https://goo.gl/maps/NQ6H79enfxa41V779',
     address: '425 E Fremont St #160, Las Vegas, NV 89101',
-    description: 'Option 1: normal zipline posture || Option 2: Superman',
+    description:
+      'Option 1: normal zipline posture || Option 2: Superman. Reservations are recommended, so I will make reservations Wednesday, Augsut 9',
   },
   {
     id: 4,
@@ -57,9 +60,10 @@ const EVENTLIST = [
     date: '8.19.23',
     time: 'All Day',
     image: PoolImage,
-    location: 'p00l',
+    location: 'The pool',
     cost: 'Free',
-    description: 'Spritz in the desert. Ride a block of ice. Nachos.',
+    description:
+      'Since we are all at different hotels, I do not have a particular pool in mind. This is free time to do whatever.',
   },
   {
     id: 5,
@@ -67,9 +71,9 @@ const EVENTLIST = [
     date: '8.19.23',
     time: 'All Day',
     image: GamblingImage,
-    location: 'Da Kasino',
+    location: 'The casino',
     cost: 'Free',
-    description: `It's only a gambling problem if you're losing.`,
+    description: `This is a placeholder. Gamble or pool. Enjoy the sights.`,
   },
   {
     id: 6,
@@ -79,10 +83,10 @@ const EVENTLIST = [
     image: GalpaoImage,
     location: 'Fashion Mall LV',
     link: 'https://vegasexperience.com/fremont-zipline-slotzilla/?gad=1&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buJXYvYGKWz5A_wVBYqgC5_-NTqHA9iXaFwWwGsYrzIV-gglSpy8Qy4aAjtcEALw_wcB',
-    cost: '$49 / $69',
+    cost: '$$',
     google: 'https://goo.gl/maps/FVoTMofJFXyVXAyj8',
     address: '3200 S Las Vegas Blvd Suite 1260,Las Vegas, NV 89109',
-    description: `Brazilian steakhouse cos it's basically a buffet.`,
+    description: `Brazilian steakhouse cos it's basically a buffet. Please RSVP by August 10 so we can make reservations. `,
   },
   {
     id: 7,
@@ -96,7 +100,7 @@ const EVENTLIST = [
     google: 'https://goo.gl/maps/kRAkYnj19zpP7AG46',
     address: '3555 S Las Vegas Blvd, Las Vegas, NV 89109',
     link: 'https://get.rupaulsdragracelive.com/',
-    description: 'Men in wigs.',
+    description: 'Men in wigs. We have the tickets. Just show up!',
   },
 
   {
@@ -110,7 +114,8 @@ const EVENTLIST = [
     address: '921 S Main St, Las Vegas, NV 89101',
     google: 'https://goo.gl/maps/EUpiUCeMmeQm3QRm8',
     cost: '$$',
-    description: 'Asian-inspired brunch means Ube French Toast.',
+    description:
+      'Asian-inspired brunch means Ube French Toast. Please reach out by Wednesday August 9 so we can make a reservation.',
   },
 ];
 

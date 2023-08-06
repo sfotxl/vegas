@@ -28,7 +28,10 @@ const EventCard = ({ event }) => {
        text-light'
         >
           <Row>
-            <Col className='data'>Location: {event.location}</Col>
+            <Col className='data'>
+              Location: {event.location}
+              <div>Cost: {event.cost}</div>
+            </Col>
             {event.reservation ? (
               <Col className='data'>Reservation: {event.reservation}</Col>
             ) : null}
