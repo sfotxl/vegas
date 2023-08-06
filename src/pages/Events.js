@@ -38,7 +38,7 @@ const EVENTLIST = [
       'Boulevard Tower, 3708 Las Vegas Blvd S Level 3, Las Vegas, NV 89109',
     google: 'https://goo.gl/maps/grCV8vn8o9UAgWsH9',
     description:
-      'This is my birthday dinner. If you cannot make it to this for whatever reason please let me know before August 16.',
+      'This is my birthday dinner. If you cannot make it to this for whatever reason please let me know before Wednesday, August 9.',
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ const EVENTLIST = [
     google: 'https://goo.gl/maps/NQ6H79enfxa41V779',
     address: '425 E Fremont St #160, Las Vegas, NV 89101',
     description:
-      'Option 1: normal zipline posture || Option 2: Superman. Reservations are recommended, so I will make reservations Wednesday, Augsut 9',
+      'Option 1: normal zipline posture || Option 2: Superman. Reservations are recommended, so I will make reservations Wednesday, August 9',
   },
   {
     id: 4,
@@ -86,7 +86,7 @@ const EVENTLIST = [
     cost: '$$',
     google: 'https://goo.gl/maps/FVoTMofJFXyVXAyj8',
     address: '3200 S Las Vegas Blvd Suite 1260,Las Vegas, NV 89109',
-    description: `Brazilian steakhouse cos it's basically a buffet. Please RSVP by August 10 so we can make reservations. `,
+    description: `Brazilian steakhouse cos it's basically a buffet. Please RSVP by Wednesday, August 9, so we can make reservations. `,
   },
   {
     id: 7,
@@ -100,7 +100,8 @@ const EVENTLIST = [
     google: 'https://goo.gl/maps/kRAkYnj19zpP7AG46',
     address: '3555 S Las Vegas Blvd, Las Vegas, NV 89109',
     link: 'https://get.rupaulsdragracelive.com/',
-    description: 'Men in wigs. We have the tickets. Just show up!',
+    description:
+      'Men in wigs. We have the tickets for Kayla, Keola, Kyle, Jordan, Xander, Travis, and Kalani. Additional tickets can be purchased on the site below.',
   },
 
   {
@@ -115,7 +116,7 @@ const EVENTLIST = [
     google: 'https://goo.gl/maps/EUpiUCeMmeQm3QRm8',
     cost: '$$',
     description:
-      'Asian-inspired brunch means Ube French Toast. Please reach out by Wednesday August 9 so we can make a reservation.',
+      'Asian-inspired brunch means Ube French Toast. Please reach out by Wednesday, August 9, so we can make a reservation.',
   },
 ];
 
