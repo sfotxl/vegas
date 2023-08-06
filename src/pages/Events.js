@@ -107,8 +107,8 @@ const EVENTLIST = [
   {
     id: 8,
     name: 'The Pepper Club',
-    date: '8.29.23',
-    time: '1:00pm',
+    date: '8.20.23',
+    time: '11:00',
     image: UbeFrenchImage,
     location: 'The English Hotel',
     link: 'https://www.thepepperclub.com/',
