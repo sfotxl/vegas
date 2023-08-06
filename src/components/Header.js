@@ -1,22 +1,29 @@
 import { Navbar, Nav } from 'reactstrap';
 // import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   //   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <Navbar color='light' sticky='top' expand='sm'>
-      {/* <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
+    <>
+      <Navbar color='light' expand='sm'>
+        {/* <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse isOpen={menuOpen} navbar> */}
-      <Nav navbar className='flex-grow-1 justify-content-evenly flex-row'>
-        <NavLink to='/'>WE'RE GOING TO VEGAS Y'ALL</NavLink>
+        <Nav
+          navbar
+          className='flex-grow-1 justify-content-evenly flex-row text-align-center'
+        >
+          <div>WE'RE GOING TO VEGAS Y'ALL</div>
+          <a href='#1'>Friday</a>
+          <a href='#4'>Saturday</a>
+          <a href='#9'>Sunday</a>
 
-        {/* <NavLink to='/'>Hotels</NavLink> */}
+          {/* <NavLink to='/'>Hotels</NavLink> */}
 
-        <hr />
+          {/* <hr /> */}
 
-        {/* <UncontrolledDropdown size="small" nav inNavbar>
+          {/* <UncontrolledDropdown size="small" nav inNavbar>
               <DropdownToggle nav caret color="primary" className="text-light">
                 By Day
               </DropdownToggle>
@@ -33,9 +40,11 @@ const Header = () => {
                 <Link to="/19"><DropdownItem>Sunday, June 19</DropdownItem></Link>
               </DropdownMenu>
             </UncontrolledDropdown> */}
-      </Nav>
-      {/* </Collapse> */}
-    </Navbar>
+        </Nav>
+        {/* </Collapse> */}
+      </Navbar>
+      <div height='100px'></div>
+    </>
   );
 };
 

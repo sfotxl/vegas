@@ -6,7 +6,7 @@ import DesertImage from '../assets/desert.jpeg';
 
 const EventCard = ({ event }) => {
   return (
-    <Container>
+    <Container id={event.id}>
       <Row className='text-dark'>
         <Col xs={12}>
           <Card className='text-center'>
