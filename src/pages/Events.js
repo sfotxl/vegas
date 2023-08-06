@@ -87,7 +87,7 @@ const EVENTLIST = [
     link: 'https://vegasexperience.com/fremont-zipline-slotzilla/?gad=1&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buJXYvYGKWz5A_wVBYqgC5_-NTqHA9iXaFwWwGsYrzIV-gglSpy8Qy4aAjtcEALw_wcB',
     cost: '$$',
     google: 'https://goo.gl/maps/FVoTMofJFXyVXAyj8',
-    address: '3200 S Las Vegas Blvd Suite 1260,Las Vegas, NV 89109',
+    address: '3200 S Las Vegas Blvd Suite 1260, Las Vegas, NV 89109',
     description: `Brazilian steakhouse cos it's basically a buffet. Please RSVP by Wednesday, August 9, so we can make reservations. `,
   },
   {
@@ -114,7 +114,7 @@ const EVENTLIST = [
     image: NYNYImage,
     cost: '$25',
     google: 'https://goo.gl/maps/QyRvjXmVBwBS8SBg8',
-    address: '3555 S Las Vegas Blvd, Las Vegas, NV 89109',
+    address: '3790 S Las Vegas Blvd, Las Vegas, NV 89109',
     link: 'https://newyorknewyork.mgmresorts.com/en/entertainment/the-big-apple-coaster-and-arcade.html',
     description: 'Roller coaster.',
   },
