@@ -43,6 +43,17 @@ const Header = () => {
         </Nav>
         {/* </Collapse> */}
       </Navbar>
+      <div>
+        <iframe
+          src='https://open.spotify.com/embed/playlist/2m64Pkzd4XlxnpIs5ygOlr?utm_source=generator&theme=0'
+          width='450'
+          height='100'
+          frameBorder='0'
+          allowfullscreen=''
+          allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'
+          loading='lazy'
+        ></iframe>
+      </div>
       <div height='100px'></div>
     </>
   );

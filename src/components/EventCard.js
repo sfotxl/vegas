@@ -49,7 +49,9 @@ const EventCard = ({ event }) => {
               <div>Cost: {event.cost}</div>
             </Col>
             {event.reservation ? (
-              <Col className='data'>Reservation: {event.reservation}</Col>
+              <Col className='data text-light'>
+                Reservation: {event.reservation}
+              </Col>
             ) : null}
           </Row>
         </Col>
