@@ -83,6 +83,13 @@ card {
   /* margin-top: 40px; */
 }
 
+.map {
+  margin-top: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  background-color: black;
+}
 .banner {
   margin-top: 10px;
 }

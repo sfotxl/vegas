@@ -16,7 +16,7 @@ const Header = () => {
         >
           <div>WE'RE GOING TO VEGAS Y'ALL</div>
           <a href='#1'>Friday</a>
-          <a href='#6'>Saturday</a>
+          <a href='#5'>Saturday</a>
           <a href='#11'>Sunday</a>
 
           {/* <NavLink to='/'>Hotels</NavLink> */}

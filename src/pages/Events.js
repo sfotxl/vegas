@@ -61,19 +61,6 @@ const EVENTLIST = [
   },
   {
     id: 4,
-    name: 'The Sphere',
-    date: '8.18.23',
-    time: '21:00',
-    location: 'MSG Sphere',
-    cost: 'Free',
-    image: SphereImage,
-    link: 'https://twitter.com/SphereVegas',
-    address: 'Sphere, 255 Sands Ave, Las Vegas, NV 89169',
-    google: 'https://goo.gl/maps/EYRaLRp1zXfFZUWBA',
-    description: `It's not open yet, but let's go look at it!!!!`,
-  },
-  {
-    id: 5,
     name: 'Big Apple Coaster',
     date: '8.18.23',
     time: '23:30',
@@ -86,7 +73,7 @@ const EVENTLIST = [
     description: 'Roller coaster.',
   },
   {
-    id: 6,
+    id: 5,
     name: 'Pool',
     date: '8.19.23',
     time: 'All Day',
@@ -97,7 +84,7 @@ const EVENTLIST = [
       'Since we are all at different hotels, I do not have a particular pool in mind. This is free time to do whatever.',
   },
   {
-    id: 7,
+    id: 6,
     name: 'Gamble',
     date: '8.19.23',
     time: 'All Day',
@@ -107,7 +94,7 @@ const EVENTLIST = [
     description: `This is a placeholder. Gamble or pool. Enjoy the sights.`,
   },
   {
-    id: 8,
+    id: 7,
     name: 'Galpao Gauchos',
     date: '8.19.23',
     time: '19:00',
@@ -120,7 +107,7 @@ const EVENTLIST = [
     description: `Brazilian steakhouse cos it's basically a buffet. Please RSVP by Wednesday, August 9, so we can make reservations. `,
   },
   {
-    id: 9,
+    id: 8,
     name: 'Drag Race Live',
     date: '8.19.23',
     time: '21:30',
@@ -135,9 +122,22 @@ const EVENTLIST = [
       'Men in wigs. We have the tickets for Kayla, Keola, Kyle, Jordan, Xander, Travis, and Kalani. Additional tickets can be purchased on the site below.',
   },
   {
+    id: 9,
+    name: 'The Sphere',
+    date: '8.19.23',
+    time: '23:30',
+    location: 'MSG Sphere',
+    cost: 'Free',
+    image: SphereImage,
+    link: 'https://twitter.com/SphereVegas',
+    address: 'Sphere, 255 Sands Ave, Las Vegas, NV 89169',
+    google: 'https://goo.gl/maps/EYRaLRp1zXfFZUWBA',
+    description: `It's not open yet, but let's go look at it!!!!`,
+  },
+  {
     id: 10,
     name: 'Slotzilla Zipline',
-    date: '8.19.23',
+    date: '8.20.23',
     time: '00:30',
     image: SlotzImage,
     location: 'Downtown LV',
@@ -190,7 +190,15 @@ const Events = () => {
           <Row>
             <Col>
               <DesertHeader event={{ name: 'Things To Keep In Mind' }} />
-              <div className='text-light keepbody'>Remember: </div>
+              <div className='map'>
+                <iframe
+                  title='map'
+                  src='https://www.google.com/maps/d/embed?mid=19PQIjP5zqCmIwjKR0EMIm4V5jyVOrBw&ehbc=2E312F'
+                  width='100%'
+                  height='400'
+                ></iframe>
+              </div>
+              <div className='text-light keepbody'>Remember:</div>
               <div className='keepinmind'>
                 <img src={VegasImage} width='100%' alt='vegas' />
                 <br />
