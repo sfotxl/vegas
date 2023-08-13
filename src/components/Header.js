@@ -16,7 +16,7 @@ const Header = () => {
         >
           <div>WE'RE GOING TO VEGAS Y'ALL</div>
           <a href='#1'>Friday</a>
-          <a href='#4'>Saturday</a>
+          <a href='#5'>Saturday</a>
           <a href='#9'>Sunday</a>
 
           {/* <NavLink to='/'>Hotels</NavLink> */}
@@ -48,7 +48,7 @@ const Header = () => {
           title='spotify'
           src='https://open.spotify.com/embed/playlist/2m64Pkzd4XlxnpIs5ygOlr?utm_source=generator&theme=0'
           width='380'
-          height='100'
+          height='80'
           frameBorder='0'
           allowfullscreen=''
           allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'

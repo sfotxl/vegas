@@ -8,8 +8,13 @@ import PoolImage from '../assets/pool.gif';
 import NYNYImage from '../assets/NYNY.gif';
 import CasinoGif from '../assets/casino.gif';
 import GalpaoImage from '../assets/brazilian.gif';
+import SphereImage from '../assets/sphere.gif';
+import SlotImage from '../assets/bellagio.gif';
+import VegasImage from '../assets/happens-in-vegas.png';
 import EventCard from '../components/EventCard';
 import Header from '../components/Header';
+import { Container, Row, Col, Card, CardImg, CardImgOverlay } from 'reactstrap';
+import { DesertHeader } from '../components/EventCard';
 
 const EVENTLIST = [
   {
@@ -25,6 +30,18 @@ const EVENTLIST = [
     google: 'https://goo.gl/maps/zCzANQxm8fv5Sw1y9',
     description:
       'This is a large complex featuring VR, thrill rides, music, and interactive art. Admission is free to the building, but doing things once inside might carry a price. ',
+  },
+  {
+    id: 2,
+    name: 'Group Slot Pull',
+    date: '8.18.23',
+    time: '17:00',
+    location: 'Bellagio',
+    cost: '$50',
+    image: SlotImage,
+    link: 'https://www.youtube.com/watch?v=_-j5ZvWPT9s',
+    google: 'https://goo.gl/maps/2QAEP9UCv6TSnr1p8',
+    description: `We're pooling our money to bet the maximum on a high-end slot machine.  Either we can all contribute the same, or divy up any winnings based on how much a person gives.  Let's start the trip *correct*!`,
   },
   {
     id: 2,
@@ -44,20 +61,32 @@ const EVENTLIST = [
   },
   {
     id: 3,
-    name: 'Slotzilla Zipline',
+    name: 'The Sphere',
     date: '8.18.23',
-    time: '22:00',
-    image: SlotzImage,
-    location: 'Downtown LV',
-    link: 'https://vegasexperience.com/fremont-zipline-slotzilla/?gad=1&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buJXYvYGKWz5A_wVBYqgC5_-NTqHA9iXaFwWwGsYrzIV-gglSpy8Qy4aAjtcEALw_wcB',
-    cost: '$49 / $69',
-    google: 'https://goo.gl/maps/NQ6H79enfxa41V779',
-    address: '425 E Fremont St #160, Las Vegas, NV 89101',
-    description:
-      'Option 1: normal zipline posture || Option 2: Superman. Reservations are recommended, so I will make reservations Wednesday, August 9',
+    time: '21:00',
+    location: 'MSG Sphere',
+    cost: 'Free',
+    image: SphereImage,
+    link: 'https://twitter.com/SphereVegas',
+    address: 'Sphere, 255 Sands Ave, Las Vegas, NV 89169',
+    google: 'https://goo.gl/maps/EYRaLRp1zXfFZUWBA',
+    description: `It's not open yet, but let's go look at it!!!!`,
   },
   {
     id: 4,
+    name: 'Big Apple Coaster',
+    date: '8.18.23',
+    time: '23:30',
+    location: 'New York, New York',
+    image: NYNYImage,
+    cost: '$25',
+    google: 'https://goo.gl/maps/QyRvjXmVBwBS8SBg8',
+    address: '3790 S Las Vegas Blvd, Las Vegas, NV 89109',
+    link: 'https://newyorknewyork.mgmresorts.com/en/entertainment/the-big-apple-coaster-and-arcade.html',
+    description: 'Roller coaster.',
+  },
+  {
+    id: 5,
     name: 'Pool',
     date: '8.19.23',
     time: 'All Day',
@@ -68,7 +97,7 @@ const EVENTLIST = [
       'Since we are all at different hotels, I do not have a particular pool in mind. This is free time to do whatever.',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Gamble',
     date: '8.19.23',
     time: 'All Day',
@@ -78,7 +107,7 @@ const EVENTLIST = [
     description: `This is a placeholder. Gamble or pool. Enjoy the sights.`,
   },
   {
-    id: 6,
+    id: 7,
     name: 'Galpao Gauchos',
     date: '8.19.23',
     time: '19:00',
@@ -91,7 +120,7 @@ const EVENTLIST = [
     description: `Brazilian steakhouse cos it's basically a buffet. Please RSVP by Wednesday, August 9, so we can make reservations. `,
   },
   {
-    id: 7,
+    id: 8,
     name: 'Drag Race Live',
     date: '8.19.23',
     time: '21:30',
@@ -106,20 +135,21 @@ const EVENTLIST = [
       'Men in wigs. We have the tickets for Kayla, Keola, Kyle, Jordan, Xander, Travis, and Kalani. Additional tickets can be purchased on the site below.',
   },
   {
-    id: 8,
-    name: 'Big Apple Coaster',
+    id: 9,
+    name: 'Slotzilla Zipline',
     date: '8.19.23',
-    time: '23:30',
-    location: 'New York, New York',
-    image: NYNYImage,
-    cost: '$25',
-    google: 'https://goo.gl/maps/QyRvjXmVBwBS8SBg8',
-    address: '3790 S Las Vegas Blvd, Las Vegas, NV 89109',
-    link: 'https://newyorknewyork.mgmresorts.com/en/entertainment/the-big-apple-coaster-and-arcade.html',
-    description: 'Roller coaster.',
+    time: '00:30',
+    image: SlotzImage,
+    location: 'Downtown LV',
+    link: 'https://vegasexperience.com/fremont-zipline-slotzilla/?gad=1&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buJXYvYGKWz5A_wVBYqgC5_-NTqHA9iXaFwWwGsYrzIV-gglSpy8Qy4aAjtcEALw_wcB',
+    cost: '$49 / $69',
+    google: 'https://goo.gl/maps/NQ6H79enfxa41V779',
+    address: '425 E Fremont St #160, Las Vegas, NV 89101',
+    description:
+      'Option 1: normal zipline posture || Option 2: Superman. Reservations are recommended, so I will make reservations Wednesday, August 9',
   },
   {
-    id: 9,
+    id: 10,
     name: 'The Pepper Club',
     date: '8.20.23',
     time: '11:00',
@@ -129,6 +159,7 @@ const EVENTLIST = [
     address: '921 S Main St, Las Vegas, NV 89101',
     google: 'https://goo.gl/maps/EUpiUCeMmeQm3QRm8',
     cost: '$$',
+    reservation: 6,
     description:
       'Asian-inspired brunch means Ube French Toast. Please reach out by Wednesday, August 9, so we can make a reservation.',
   },
@@ -140,7 +171,33 @@ const Events = () => {
   return (
     <>
       <Header />
+      <div className='keepinmind'>
+        <a href='#Keep'>Things to keep in mind</a>
+      </div>
       {list}
+      <div id='Keep'>
+        <Container className='bg-info'>
+          {/* <Row className={background}>
+            <Col className='banner' xs={12}>
+              <Card className='text-center'>
+                <CardImg width='100%' src={DesertImage} alt='desert' />
+                <CardImgOverlay className='eventHead text-light'>
+                  {event.name}
+                </CardImgOverlay>
+              </Card>
+            </Col>
+          </Row> */}
+          <Row>
+            <Col>
+              <DesertHeader event={{ name: 'Things To Keep In Mind' }} />
+              <div className='text-light keepbody'>Remember: </div>
+              <div className='keepinmind'>
+                <img src={VegasImage} width='100%' alt='vegas' />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };

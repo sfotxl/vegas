@@ -4,6 +4,15 @@ import { Col, Row, Container, CardImg, CardImgOverlay } from 'reactstrap';
 import '../App.css';
 import DesertImage from '../assets/desert.jpeg';
 
+export const DesertHeader = ({ event }) => (
+  <Card className='text-center desert'>
+    <CardImg width='100%' src={DesertImage} alt='desert' />
+    <CardImgOverlay className='eventHead text-light'>
+      {event.name}
+    </CardImgOverlay>
+  </Card>
+);
+
 const EventCard = ({ event }) => {
   let background = 'bg-success';
   switch (event.date) {
