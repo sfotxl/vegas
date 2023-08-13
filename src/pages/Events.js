@@ -13,7 +13,7 @@ import SlotImage from '../assets/bellagio.gif';
 import VegasImage from '../assets/happens-in-vegas.png';
 import EventCard from '../components/EventCard';
 import Header from '../components/Header';
-import { Container, Row, Col, Card, CardImg, CardImgOverlay } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import { DesertHeader } from '../components/EventCard';
 
 const EVENTLIST = [
