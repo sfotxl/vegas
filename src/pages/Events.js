@@ -39,12 +39,12 @@ const EVENTLIST = [
     location: 'Bellagio',
     cost: '$50',
     image: SlotImage,
-    link: 'https://www.youtube.com/watch?v=_-j5ZvWPT9s',
+    link: 'https://youtube.com/shorts/S6n6d0-WrrA?feature=share',
     google: 'https://goo.gl/maps/2QAEP9UCv6TSnr1p8',
     description: `We're pooling our money to bet the maximum on a high-end slot machine.  Either we can all contribute the same, or divy up any winnings based on how much a person gives.  Let's start the trip *correct*!`,
   },
   {
-    id: 2,
+    id: 3,
     name: 'Scarpetta',
     date: '8.18.23',
     time: '18:00',
@@ -60,7 +60,7 @@ const EVENTLIST = [
       'This is my birthday dinner. If you cannot make it to this for whatever reason please let me know before Wednesday, August 9.',
   },
   {
-    id: 3,
+    id: 4,
     name: 'The Sphere',
     date: '8.18.23',
     time: '21:00',
@@ -73,7 +73,7 @@ const EVENTLIST = [
     description: `It's not open yet, but let's go look at it!!!!`,
   },
   {
-    id: 4,
+    id: 5,
     name: 'Big Apple Coaster',
     date: '8.18.23',
     time: '23:30',
@@ -86,7 +86,7 @@ const EVENTLIST = [
     description: 'Roller coaster.',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Pool',
     date: '8.19.23',
     time: 'All Day',
@@ -97,7 +97,7 @@ const EVENTLIST = [
       'Since we are all at different hotels, I do not have a particular pool in mind. This is free time to do whatever.',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Gamble',
     date: '8.19.23',
     time: 'All Day',
@@ -107,7 +107,7 @@ const EVENTLIST = [
     description: `This is a placeholder. Gamble or pool. Enjoy the sights.`,
   },
   {
-    id: 7,
+    id: 8,
     name: 'Galpao Gauchos',
     date: '8.19.23',
     time: '19:00',
@@ -120,7 +120,7 @@ const EVENTLIST = [
     description: `Brazilian steakhouse cos it's basically a buffet. Please RSVP by Wednesday, August 9, so we can make reservations. `,
   },
   {
-    id: 8,
+    id: 9,
     name: 'Drag Race Live',
     date: '8.19.23',
     time: '21:30',
@@ -135,7 +135,7 @@ const EVENTLIST = [
       'Men in wigs. We have the tickets for Kayla, Keola, Kyle, Jordan, Xander, Travis, and Kalani. Additional tickets can be purchased on the site below.',
   },
   {
-    id: 9,
+    id: 10,
     name: 'Slotzilla Zipline',
     date: '8.19.23',
     time: '00:30',
@@ -149,7 +149,7 @@ const EVENTLIST = [
       'Option 1: normal zipline posture || Option 2: Superman. Reservations are recommended, so I will make reservations Wednesday, August 9',
   },
   {
-    id: 10,
+    id: 11,
     name: 'The Pepper Club',
     date: '8.20.23',
     time: '11:00',
