@@ -37,7 +37,7 @@ const EVENTLIST = [
     date: '8.18.23',
     time: '17:00',
     location: 'Bellagio',
-    cost: '$50',
+    cost: 'variable / $100',
     image: SlotImage,
     link: 'https://youtube.com/shorts/S6n6d0-WrrA?feature=share',
     google: 'https://goo.gl/maps/2QAEP9UCv6TSnr1p8',
@@ -193,6 +193,12 @@ const Events = () => {
               <div className='text-light keepbody'>Remember: </div>
               <div className='keepinmind'>
                 <img src={VegasImage} width='100%' alt='vegas' />
+                <br />
+              </div>
+              <div>
+                <div className='text-light'>
+                  If you find yourself in jail, the person to call is Kyle.
+                </div>
               </div>
             </Col>
           </Row>
