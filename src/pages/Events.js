@@ -63,7 +63,7 @@ const EVENTLIST = [
     id: 4,
     name: 'Big Apple Coaster',
     date: '8.18.23',
-    time: '23:30',
+    time: '21:00',
     location: 'New York, New York',
     image: NYNYImage,
     cost: '$25',
