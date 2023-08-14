@@ -9,6 +9,7 @@ import NYNYImage from '../assets/NYNY.gif';
 import CasinoGif from '../assets/casino.gif';
 import GalpaoImage from '../assets/brazilian.gif';
 import SphereImage from '../assets/sphere.gif';
+import PsychicImage from '../assets/psychic.gif';
 import SlotImage from '../assets/bellagio.gif';
 import VegasImage from '../assets/happens-in-vegas.png';
 import EventCard from '../components/EventCard';
@@ -163,6 +164,18 @@ const EVENTLIST = [
     reservation: 6,
     description:
       'Asian-inspired brunch means Ube French Toast. The reservation is currently for six, but we can add more, if needed.',
+  },
+  {
+    id: 12,
+    name: 'Psychic',
+    date: '8.20.23',
+    time: '13:30',
+    image: PsychicImage,
+    location: 'Psychic Eye Book Store',
+    link: 'https://pebooksandgifts.com/',
+    address: '6848 W Charleston Blvd, Las Vegas, NV 89117',
+    google: 'https://goo.gl/maps/qtpHyA5SXZ4Jvwqq9',
+    description: 'Spooky ooky kooky psychic reading in the desert.',
   },
 ];
 
