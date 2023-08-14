@@ -33,18 +33,6 @@ const EVENTLIST = [
   },
   {
     id: 2,
-    name: 'Group Slot Pull',
-    date: '8.18.23',
-    time: '17:00',
-    location: 'Bellagio',
-    cost: 'variable / $100',
-    image: SlotImage,
-    link: 'https://youtube.com/shorts/S6n6d0-WrrA?feature=share',
-    google: 'https://goo.gl/maps/2QAEP9UCv6TSnr1p8',
-    description: `We're pooling our money to bet the maximum on a high-end slot machine.  Either we can all contribute the same, or divy up any winnings based on how much a person gives.  Let's start the trip *correct*!`,
-  },
-  {
-    id: 3,
     name: 'Scarpetta',
     date: '8.18.23',
     time: '18:00',
@@ -60,6 +48,18 @@ const EVENTLIST = [
       'This is my birthday dinner. If you cannot make it to this for whatever reason please let me know before Wednesday, August 9.',
   },
   {
+    id: 3,
+    name: 'Group Slot Pull',
+    date: '8.18.23',
+    time: '20:30',
+    location: 'Bellagio',
+    cost: 'variable / $100',
+    image: SlotImage,
+    link: 'https://youtube.com/shorts/S6n6d0-WrrA?feature=share',
+    google: 'https://goo.gl/maps/2QAEP9UCv6TSnr1p8',
+    description: `We're pooling our money to bet the maximum on a high-end slot machine.  Either we can all contribute the same, or divy up any winnings based on how much a person gives.  Let's start the trip *correct*!`,
+  },
+  {
     id: 4,
     name: 'Big Apple Coaster',
     date: '8.18.23',
@@ -70,7 +70,8 @@ const EVENTLIST = [
     google: 'https://goo.gl/maps/QyRvjXmVBwBS8SBg8',
     address: '3790 S Las Vegas Blvd, Las Vegas, NV 89109',
     link: 'https://newyorknewyork.mgmresorts.com/en/entertainment/the-big-apple-coaster-and-arcade.html',
-    description: 'Roller coaster.',
+    description:
+      'Roller coaster. The adrenaline will be nice if we lose in the slot pull.',
   },
   {
     id: 5,
@@ -81,7 +82,7 @@ const EVENTLIST = [
     location: 'The pool',
     cost: 'Free',
     description:
-      'Since we are all at different hotels, I do not have a particular pool in mind. This is free time to do whatever.',
+      'Since we are all at different hotels, I do not have a particular pool in mind. Pool at the MGM Grand looks superb, though! This is free time to do whatever.',
   },
   {
     id: 6,
@@ -90,8 +91,8 @@ const EVENTLIST = [
     time: 'All Day',
     image: CasinoGif,
     location: 'The casino',
-    cost: 'Free',
-    description: `This is a placeholder. Gamble or pool. Enjoy the sights.`,
+    cost: 'UwU',
+    description: `Gamble at the slots, gamble at the tables, drink in the casino. I want to gamble at the Paris casino. Enjoy the sights.`,
   },
   {
     id: 7,
@@ -161,7 +162,7 @@ const EVENTLIST = [
     cost: '$$',
     reservation: 6,
     description:
-      'Asian-inspired brunch means Ube French Toast. Please reach out by Wednesday, August 9, so we can make a reservation.',
+      'Asian-inspired brunch means Ube French Toast. The reservation is currently for six, but we can add more, if needed.',
   },
 ];
 
